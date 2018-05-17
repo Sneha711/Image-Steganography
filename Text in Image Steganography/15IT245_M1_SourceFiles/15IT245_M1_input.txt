@@ -1,0 +1,2 @@
+n text steganography, text is used as cover object. It hides secret message behind the other text file. It is done by modifying the text or by modifying some features of text components. Different methods used are line-shift coding, word-shift coding and feature coding. Text steganography was very much used in ancient times, but today these techniques have become obsolete. It is also known as linguistic steganography.
+444

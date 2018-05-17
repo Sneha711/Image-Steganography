@@ -1,0 +1,251 @@
+The image size is: 108
+Image shape is: (6, 6, 3)
+Enter message [104, 101, 108, 108, 111, 32, 119, 111, 114, 108, 100]
+Enter 3 digit key: 3
+['hello', 'world']
+hello
+5
+world
+5
+[5, 5]
+h
+ascii value is  104
+after first exor letter is  109
+e
+ascii value is  101
+after first exor letter is  96
+l
+ascii value is  108
+after first exor letter is  105
+l
+ascii value is  108
+after first exor letter is  105
+o
+ascii value is  111
+after first exor letter is  106
+The encrypted message is: ncjji 
+w
+ascii value is  119
+after first exor letter is  114
+o
+ascii value is  111
+after first exor letter is  106
+r
+ascii value is  114
+after first exor letter is  119
+l
+ascii value is  108
+after first exor letter is  105
+d
+ascii value is  100
+after first exor letter is  97
+The encrypted message is: ncjji qitjb 
+The binary form of the message ['01101110', '01100011', '01101010', '01101010', '01101001', '00100000', '01110001', '01101001', '01110100', '01101010', '01100010', '00100000']
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  10 for pixel  0
+red_bin value 11000001
+Last two bits of red pixel for pixel  1  is  01
+result of xor is:  1 1
+stego 8 bit binary value is  11000011  for pixel  1
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  11 for pixel  1
+red_bin value 11000001
+Last two bits of red pixel for pixel  2  is  01
+result of xor is:  1 0
+stego 8 bit binary value is  11000010  for pixel  2
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  10 for pixel  2
+red_bin value 11000000
+Last two bits of red pixel for pixel  3  is  00
+result of xor is:  1 0
+stego 8 bit binary value is  11000010  for pixel  3
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  10 for pixel  3
+red_bin value 10111110
+Last two bits of red pixel for pixel  4  is  10
+result of xor is:  0 0
+stego 8 bit binary value is  10111100  for pixel  4
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  01 for pixel  4
+red_bin value 10111111
+Last two bits of red pixel for pixel  5  is  11
+result of xor is:  1 0
+stego 8 bit binary value is  10111110  for pixel  5
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  00 for pixel  5
+red_bin value 10111110
+Last two bits of red pixel for pixel  6  is  10
+result of xor is:  1 0
+stego 8 bit binary value is  10111110  for pixel  6
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  01 for pixel  6
+red_bin value 11000010
+Last two bits of red pixel for pixel  7  is  10
+result of xor is:  1 1
+stego 8 bit binary value is  11000011  for pixel  7
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  01 for pixel  7
+red_bin value 11000001
+Last two bits of red pixel for pixel  8  is  01
+result of xor is:  0 0
+stego 8 bit binary value is  11000000  for pixel  8
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  00 for pixel  8
+red_bin value 11000001
+Last two bits of red pixel for pixel  9  is  01
+result of xor is:  0 1
+stego 8 bit binary value is  11000001  for pixel  9
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  10 for pixel  9
+red_bin value 10111111
+Last two bits of red pixel for pixel  10  is  11
+result of xor is:  0 1
+stego 8 bit binary value is  10111101  for pixel  10
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  10 for pixel  10
+red_bin value 10111111
+Last two bits of red pixel for pixel  11  is  11
+result of xor is:  0 1
+stego 8 bit binary value is  10111101  for pixel  11
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  00 for pixel  11
+red_bin value 10111110
+Last two bits of red pixel for pixel  12  is  10
+result of xor is:  1 0
+stego 8 bit binary value is  10111110  for pixel  12
+[[193 193 192 190 191 190]
+ [194 193 193 191 191 190]
+ [194 194 194 192 190 188]
+ [194 194 194 193 190 188]
+ [195 195 194 193 190 188]
+ [196 195 194 192 190 188]]
+[[195 194 194 188 190 190]
+ [195 192 193 189 189 190]
+ [194 194 194 192 190 188]
+ [194 194 194 193 190 188]
+ [195 195 194 193 190 188]
+ [196 195 194 192 190 188]]
+green
+The 5th and 6th of message is:  11  for pixel  0
+last 2 bits of green pixel is:  11  for pixel  1
+result of xor for green pixel is:  0 0
+stego 8 bit binary value for green pixel is:  11100000
+The 5th and 6th of message is:  00  for pixel  1
+last 2 bits of green pixel is:  11  for pixel  2
+result of xor for green pixel is:  1 1
+stego 8 bit binary value for green pixel is:  11100011
+The 5th and 6th of message is:  10  for pixel  2
+last 2 bits of green pixel is:  00  for pixel  3
+result of xor for green pixel is:  1 0
+stego 8 bit binary value for green pixel is:  11100010
+The 5th and 6th of message is:  10  for pixel  3
+last 2 bits of green pixel is:  11  for pixel  4
+result of xor for green pixel is:  0 1
+stego 8 bit binary value for green pixel is:  11011101
+The 5th and 6th of message is:  10  for pixel  4
+last 2 bits of green pixel is:  01  for pixel  5
+result of xor for green pixel is:  1 1
+stego 8 bit binary value for green pixel is:  11011111
+The 5th and 6th of message is:  00  for pixel  5
+last 2 bits of green pixel is:  11  for pixel  6
+result of xor for green pixel is:  1 1
+stego 8 bit binary value for green pixel is:  11011011
+5th and 6th bit of message is:  00
+last two bits of green pixel is:  00  for pixel  7
+result of xor for green pixel is:  0 0  for pixel  7
+stego 8 bit binary value for green pixel is:  11011100  for pixel  7
+5th and 6th bit of message is:  10
+last two bits of green pixel is:  01  for pixel  8
+result of xor for green pixel is:  1 1  for pixel  8
+stego 8 bit binary value for green pixel is:  11011111  for pixel  8
+5th and 6th bit of message is:  01
+last two bits of green pixel is:  00  for pixel  9
+result of xor for green pixel is:  0 1  for pixel  9
+stego 8 bit binary value for green pixel is:  11100001  for pixel  9
+5th and 6th bit of message is:  10
+last two bits of green pixel is:  01  for pixel  10
+result of xor for green pixel is:  1 1  for pixel  10
+stego 8 bit binary value for green pixel is:  11100011  for pixel  10
+5th and 6th bit of message is:  00
+last two bits of green pixel is:  11  for pixel  11
+result of xor for green pixel is:  1 1  for pixel  11
+stego 8 bit binary value for green pixel is:  11100011  for pixel  11
+5th and 6th bit of message is:  00
+last two bits of green pixel is:  11  for pixel  12
+result of xor for green pixel is:  1 1  for pixel  12
+stego 8 bit binary value for green pixel is:  11100011  for pixel  12
+[[227 227 224 223 221 219]
+ [227 227 225 224 221 220]
+ [227 227 226 225 223 221]
+ [227 227 226 225 223 221]
+ [225 226 226 225 223 221]
+ [226 225 225 224 223 221]]
+[[224 227 226 221 223 219]
+ [227 227 227 225 223 220]
+ [227 227 226 225 223 221]
+ [227 227 226 225 223 221]
+ [225 226 226 225 223 221]
+ [226 225 225 224 223 221]]
+blue
+blue
+the first 4 bits of the message are:  0110  for pixel  0
+last four bits of blue pixel are:  0101  for pixel  1
+result of xor for blue pixel 0 0  for pixel  1
+stego 8 bit binary value of blue pixel is:  01110011 for pixel 1
+the first 4 bits of the message are:  0110  for pixel  1
+last four bits of blue pixel are:  1000  for pixel  2
+result of xor for blue pixel 1 1  for pixel  2
+stego 8 bit binary value of blue pixel is:  01111110 for pixel 2
+the first 4 bits of the message are:  0110  for pixel  2
+last four bits of blue pixel are:  1010  for pixel  3
+result of xor for blue pixel 1 1  for pixel  3
+stego 8 bit binary value of blue pixel is:  01111100 for pixel 3
+the first 4 bits of the message are:  0110  for pixel  3
+last four bits of blue pixel are:  1011  for pixel  4
+result of xor for blue pixel 1 1  for pixel  4
+stego 8 bit binary value of blue pixel is:  01111101 for pixel 4
+the first 4 bits of the message are:  0110  for pixel  4
+last four bits of blue pixel are:  1101  for pixel  5
+result of xor for blue pixel 1 0  for pixel  5
+stego 8 bit binary value of blue pixel is:  01111011 for pixel 5
+the first 4 bits of the message are:  0010  for pixel  5
+last four bits of blue pixel are:  0010  for pixel  6
+result of xor for blue pixel 0 0  for pixel  6
+stego 8 bit binary value of blue pixel is:  10000000 for pixel 6
+blue
+first four bits of the message are:  0111  for pixel  6
+last four bits of blue pixel is:  1111  for pixel  7
+input_a1 1 <type 'int'>
+input_b1 1 <type 'int'>
+result of xor for blue pixel  1 0 0 0  for pixel  7
+stego 8 bit binary value for blue pixel is:  01111000  for pixel  7
+first four bits of the message are:  0110  for pixel  7
+last four bits of blue pixel is:  1011  for pixel  8
+input_a1 1 <type 'int'>
+input_b1 0 <type 'int'>
+result of xor for blue pixel  1 1 0 1  for pixel  8
+stego 8 bit binary value for blue pixel is:  01111101  for pixel  8
+first four bits of the message are:  0111  for pixel  8
+last four bits of blue pixel is:  1010  for pixel  9
+input_a1 1 <type 'int'>
+input_b1 0 <type 'int'>
+result of xor for blue pixel  1 1 0 1  for pixel  9
+stego 8 bit binary value for blue pixel is:  01111101  for pixel  9
+first four bits of the message are:  0110  for pixel  9
+last four bits of blue pixel is:  1000  for pixel  10
+input_a1 1 <type 'int'>
+input_b1 0 <type 'int'>
+result of xor for blue pixel  1 1 1 0  for pixel  10
+stego 8 bit binary value for blue pixel is:  01111110  for pixel  10
+first four bits of the message are:  0110  for pixel  10
+last four bits of blue pixel is:  0101  for pixel  11
+input_a1 1 <type 'int'>
+input_b1 1 <type 'int'>
+result of xor for blue pixel  0 0 1 1  for pixel  11
+stego 8 bit binary value for blue pixel is:  01110011  for pixel  11
+first four bits of the message are:  0010  for pixel  11
+last four bits of blue pixel is:  0011  for pixel  12
+input_a1 0 <type 'int'>
+input_b1 0 <type 'int'>
+result of xor for blue pixel  0 0 0 1  for pixel  12
+stego 8 bit binary value for blue pixel is:  01110001  for pixel  12
+[[117 115 113 110 109 109]
+ [120 117 114 111 109 108]
+ [122 120 115 112 110 108]
+ [123 122 117 114 110 106]
+ [125 123 119 116 110 106]
+ [130 127 122 115 110 106]]
+[[115 113 113 110 109 109]
+ [126 115 114 111 109 108]
+ [124 126 115 112 110 108]
+ [125 125 117 114 110 106]
+ [123 125 119 116 110 106]
+ [128 120 122 115 110 106]]

@@ -1,0 +1,97 @@
+The image size is: 270000
+Image shape is: (300, 300, 3)
+Length of message is  15
+n is  4
+[ALPHA LENGTH]:  43
+HELLO WORLD IAS|
+Key list is  [7, 25, 2, 14, 17, 11, 21, 18, 16, 7, 25, 2, 14, 17, 11, 21]
+Keymatrix before is  [[7, 25, 2, 14], [17, 11, 21, 18], [16, 7, 25, 2], [14, 17, 11, 21]]
+Key matrix is  [[ 7 17 16 14]
+ [25 11  7 17]
+ [ 2 21 25 11]
+ [14 18  2 21]]
+[ENCIPHERING]:  HELLO WORLD IAS|
+[MATRIX]
+[[ 7 17 16 14]
+ [25 11  7 17]
+ [ 2 21 25 11]
+ [14 18  2 21]]
+Encrypted message is  10.E?Q,LGHACZH35
+The binary form of the message ['00110001', '00110000', '00101110', '01000101', '00111111', '01010001', '00101100', '01001100', '01000111', '01001000', '01000001', '01000011', '01011010', '01001000', '00110011', '00110101']
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  01 for pixel  0
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  00 for pixel  1
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  10 for pixel  2
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  01 for pixel  3
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  11 for pixel  4
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  01 for pixel  5
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  00 for pixel  6
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  00 for pixel  7
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  11 for pixel  8
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  00 for pixel  9
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  01 for pixel  10
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  11 for pixel  11
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  10 for pixel  12
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  00 for pixel  13
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  11 for pixel  14
+the last two bits extracted from the message binary(which is to be embedded in red pixel) is:  01 for pixel  15
+green
+The 5th and 6th of message is:  00  for pixel  0
+The 5th and 6th of message is:  00  for pixel  1
+The 5th and 6th of message is:  11  for pixel  2
+The 5th and 6th of message is:  01  for pixel  3
+The 5th and 6th of message is:  11  for pixel  4
+The 5th and 6th of message is:  00  for pixel  5
+The 5th and 6th of message is:  11  for pixel  6
+The 5th and 6th of message is:  11  for pixel  7
+The 5th and 6th of message is:  01  for pixel  8
+The 5th and 6th of message is:  10  for pixel  9
+The 5th and 6th of message is:  00  for pixel  10
+The 5th and 6th of message is:  00  for pixel  11
+The 5th and 6th of message is:  10  for pixel  12
+The 5th and 6th of message is:  10  for pixel  13
+The 5th and 6th of message is:  00  for pixel  14
+The 5th and 6th of message is:  01  for pixel  15
+blue
+the first 4 bits of the message are:  0011  for pixel  0
+the first 4 bits of the message are:  0011  for pixel  1
+the first 4 bits of the message are:  0010  for pixel  2
+the first 4 bits of the message are:  0100  for pixel  3
+the first 4 bits of the message are:  0011  for pixel  4
+the first 4 bits of the message are:  0101  for pixel  5
+the first 4 bits of the message are:  0010  for pixel  6
+the first 4 bits of the message are:  0100  for pixel  7
+the first 4 bits of the message are:  0100  for pixel  8
+the first 4 bits of the message are:  0100  for pixel  9
+the first 4 bits of the message are:  0100  for pixel  10
+the first 4 bits of the message are:  0100  for pixel  11
+the first 4 bits of the message are:  0101  for pixel  12
+the first 4 bits of the message are:  0100  for pixel  13
+the first 4 bits of the message are:  0011  for pixel  14
+the first 4 bits of the message are:  0011  for pixel  15
+(300, 300, 3)
+Length of list for b is  90000
+List is 
+Size is  270000
+l_encr_words_final is  [49, 48, 46, 69, 63, 81, 44, 76, 71, 72, 65, 67, 90, 72, 51, 53]
+10.E?Q,LGHACZH35
+n is  4
+[ALPHA LENGTH]:  43
+10.E?Q,LGHACZH35
+Key list is  [7, 25, 2, 14, 17, 11, 21, 18, 16, 7, 25, 2, 14, 17, 11, 21]
+Keymatrix before is  [[7, 25, 2, 14], [17, 11, 21, 18], [16, 7, 25, 2], [14, 17, 11, 21]]
+Key matrix is  [[ 7 17 16 14]
+ [25 11  7 17]
+ [ 2 21 25 11]
+ [14 18  2 21]]
+[DETERMINANT] 12699.0
+[DECIPHERING]:  10.E?Q,LGHACZH35
+[MATRIX]
+[[ 24.  35.  36.  31.]
+ [ 28.  12.  40.   8.]
+ [  9.  22.  39.   9.]
+ [ 39.  38.  24.  29.]]
+[DECIPHERED TEXT]: HELLO WORLD IAS
+
+[ALGORITHM] CORRECT
+The MSE value is:  0.0027
+The PSNR value is:  73.8171659671
